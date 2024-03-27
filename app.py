@@ -135,7 +135,7 @@ st.write(
 - สร้าง Compute Engine
 - จัดการ Virtualizatoin Network
 - ติดตั้ง Jupyter Notebook ลงบน Compute Engine
-- ปรับแต่ง Jupyter Notebook ให้ใช่งานได้กับ SSL
+- ปรับแต่ง Jupyter Notebook ให้ใช้งานได้กับ SSL
 """)
 st.write("---")
 st.write(
