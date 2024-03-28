@@ -23,7 +23,7 @@ Hi My name is Nutthawut Ruengsri.
 """
 EMAIL = "rnutthawut1919@gmail.com"
 SOCIAL_MEDIA = {
-    "LinkedIn": "www.linkedin.com/in/nutthawut-ruengsri-02a767261",
+    "LinkedIn": "https://www.linkedin.com/in/nutthawut-r-7318612b8",
     "GitHub"  : "https://github.com/nunu19nunu",
     "Facebook" : "https://www.facebook.com/unun1919",
 }
