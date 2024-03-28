@@ -125,24 +125,23 @@ st.subheader("Project & Accomplishment")
 st.write("---")
 st.write("""
 - ► Python (2023)
-- ใช้ Python model(RandomForestClassifier) ในการทำนายน้ำท่วม
-- ใช้ Streamlit ในการนำขึ้นเว็บ
+- Use a Python model (RandomForestClassifier) to predict flooding.
+- Utilize Streamlit to deploy it on the web.
 """)
 st.write("---")
 st.write(
     """
 - ► Cloud Computing (2022)
-- สร้าง Compute Engine
-- จัดการ Virtualizatoin Network
-- ติดตั้ง Jupyter Notebook ลงบน Compute Engine
-- ปรับแต่ง Jupyter Notebook ให้ใช้งานได้กับ SSL
+- Create a Compute Engine.
+- Manage Virtualization Network.
+- Install Jupyter Notebook on Compute Engine.
+- Customize Jupyter Notebook to work with SSL.
 """)
 st.write("---")
 st.write(
     """
 - ► Digital image data analysis (2022)
-- สร้างโมเดลการเรียนรู้ เพื่อตรวจจับการใส่หน้ากากอนามัย
-- โดยการใช้ Machine Learning
+- Build a learning model to detect mask-wearing using Machine Learning.
 
 
 """
