@@ -98,7 +98,7 @@ st.subheader("Hard Skill")
 st.write("---")
 st.write(
     """
-- 💻 Programing: Python (Scikit-learn, Pandas, Streamlit, Seaborn)
+- 💻 Programming: Python (Scikit-learn, Pandas, Streamlit, Seaborn)
 - 🖥️ Web programming: HTML, CSS
 - 📊 Data Visulization : PowerBi, MS Excel, Tableau
 - 📔 Modeling : Logistic regression, Random Forest, Decision trees
