@@ -8,6 +8,8 @@ current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd
 css_file = current_dir / "styles" / "main.css"
 resume_file = current_dir / "assets" / "resume.pdf"
 profile_pic = current_dir / "assets" / "unnu.png"
+cert = current_dir / "assets" / "certi_python_sumsung.png"
+
 
 
 
@@ -168,3 +170,33 @@ st.write(
 
 """
 )
+
+#Certificate
+
+st.write("#")
+st.markdown("<h3 style='text-align: center;'>Certificate</h3>", unsafe_allow_html=True)
+st.write("---")
+
+certi_path1 = "assets/certi_python_sumsung.png"
+certi_path2 = "assets/cert_python.png"
+certi_path3 = "assets/thaimoc_python.png"
+
+
+certi_python_sumsung = Image.open(certi_path1)
+certi_python2 = Image.open(certi_path2)
+certi_python3 = Image.open(certi_path3)
+
+col3, col4 = st.columns(2, gap="small")
+with col3:
+    st.image(certi_python_sumsung,width=300)
+with col4:
+    st.image(certi_python2,width=320)
+
+col5, col6 = st.columns(2, gap="small")
+with col5:
+    st.image(certi_python3,width=300)
+
+
+
+
+
