@@ -116,7 +116,7 @@ st.write("---")
 st.write(
     """
 - Thai(Native)
-- English (Fair)
+- English (Intermediate)
 
 
 """
@@ -126,7 +126,7 @@ st.write("#")
 st.subheader("Project & Accomplishment")
 st.write("---")
 st.write("""
-- ► Python (2023)
+- ► Project: Python (2023)
 - Use a Python model (RandomForestClassifier) to predict flooding.
 - Utilize Streamlit to deploy it on the web.
 """)
@@ -143,8 +143,11 @@ st.write("---")
 st.write(
     """
 - ► Digital image data analysis (2022)
-- Build a learning model to detect mask-wearing using Machine Learning.
-
+- Experience in Digital Image Data Analysis using Keras, TensorFlow, Imutils,
+MTCNN, OpenCV, NumPy, and OS.
+- Developed Deep Learning models for Mask Detection and Facial
+Expression Analysis.
+- Utilized Imutils, MTCNN, OpenCV, and NumPy for image processing tasks.
 
 """
 )
