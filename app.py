@@ -180,25 +180,32 @@ st.write("#")
 st.markdown("<h3 style='text-align: center;'>Certificate</h3>", unsafe_allow_html=True)
 st.write("---")
 
+
+image_size = (300, 200)
+
 certi_path1 = "assets/certi_python_sumsung.png"
 certi_path2 = "assets/cert_python.png"
 certi_path3 = "assets/thaimoc_python.png"
+certi_path4 = "assets/fullstack_cert.jpg"
 
 
-certi_python_sumsung = Image.open(certi_path1)
-certi_python2 = Image.open(certi_path2)
-certi_python3 = Image.open(certi_path3)
+certi_python_sumsung = Image.open(certi_path1).resize(image_size)
+certi_python2 = Image.open(certi_path2).resize(image_size)
+certi_python3 = Image.open(certi_path3).resize(image_size)
+certi_fullstack = Image.open(certi_path4).resize(image_size)
+
+# Create 2x2 grid layout for certificates with equal size
+col1, col2 = st.columns(2, gap="small")
+with col1:
+    st.image(certi_python_sumsung)
+with col2:
+    st.image(certi_python2)
 
 col3, col4 = st.columns(2, gap="small")
 with col3:
-    st.image(certi_python_sumsung,width=300)
+    st.image(certi_python3)
 with col4:
-    st.image(certi_python2,width=320)
-
-col5, col6 = st.columns(2, gap="small")
-with col5:
-    st.image(certi_python3,width=300)
-
+    st.image(certi_fullstack)
 
 
 
